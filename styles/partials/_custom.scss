@@ -1,0 +1,16 @@
+//Theme
+$colours: (
+	brown: #a07157,
+	black: #000000,
+	copy: #666666,
+);
+
+@function getColour($colour) {
+	@return map-get($colours, $colour);
+}
+
+//Webresponsive elements
+$mobile: 576px;
+$tablet: 768px;
+$desktop: 992px;
+$large: 1400px;

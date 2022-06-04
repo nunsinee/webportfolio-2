@@ -1,0 +1,64 @@
+.navbar .navbar-nav .nav-link {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.2rem;
+}
+
+.navbar-brand {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover {
+	color: $black;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.navbar .navbar-nav .nav-link {
+	color: $black;
+	font-weight: 300;
+
+	@media (max-width: $desktop) {
+		color: $black;
+		padding-left: 0.5em;
+	}
+}
+
+.navbar-brand img {
+	width: 100px;
+}
+
+@media (max-width: $desktop) {
+	.navbar > .container {
+		width: 100%;
+		padding: 0;
+	}
+
+	.navbar-collapse {
+		background-color: rgba(getColour(brown), 0.8);
+		margin: 2em 0;
+	}
+
+	.nav-item {
+		padding-left: 1em;
+	}
+
+	.navbar-toggler {
+		margin-right: 0.5em;
+	}
+
+	.navbar-brand {
+		margin-left: 0.5em;
+	}
+
+	.navbar {
+		padding-bottom: 0;
+	}
+
+	.navbar .navbar-nav .nav-link.active,
+	.navbar .navbar-nav .nav-link:hover {
+		font-weight: 600;
+		text-decoration: underline;
+	}
+}
