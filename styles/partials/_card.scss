@@ -2,10 +2,17 @@
 	&__desc {
 		border: none;
 		height: 250px;
+		margin-bottom: 1em;
+	}
+
+	&__person {
+		max-width: 100%;
+		overflow: hidden;
 	}
 	&__image {
 		max-width: 100%;
-		height: 150px;
+		height: 450px;
+		border-radius: 5px;
 		overflow: hidden;
 	}
 	&__work {
@@ -14,7 +21,6 @@
 		overflow: hidden;
 		cursor: pointer;
 		position: relative;
-		// background-color: $white;
 		border-radius: 5px;
 		box-shadow: 0 1px 2px rgba($black, 0.1);
 		transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -33,7 +39,7 @@
 		}
 
 		&:hover {
-			transform: scale(1.5);
+			transform: scale(1.3);
 		}
 		&:hover:after {
 			opacity: 1;
@@ -43,4 +49,20 @@
 
 .btn-dark {
 	margin-right: 1em;
+}
+
+.list-group-item {
+	border: none;
+	background-color: rgba(getColour(light-brown), 0.5);
+}
+
+.list-group-item.active {
+	color: getColour(black);
+	background-color: getColour(light-brown);
+	border-color: getColour(light-brown);
+	text-transform: uppercase;
+}
+
+.profile-container {
+	margin-bottom: 5em;
 }

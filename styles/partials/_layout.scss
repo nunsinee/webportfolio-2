@@ -51,22 +51,16 @@ body {
 
 .hero__text {
 	width: 90%;
-	z-index: 99;
 	position: absolute;
+	z-index: 10;
 	top: 15%;
 	margin: 0 auto;
-	padding: 0 2em;
-	color: getcolour(black);
 	text-align: center;
 	@media (max-width: $mobile) {
 		top: 40%;
-		padding: 0 2em;
 	}
 
 	@media (max-width: $tablet) {
-		top: 20%;
-		padding: 0 2em;
+		top: 15%;
 	}
 }
-
-

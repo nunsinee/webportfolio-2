@@ -4,8 +4,6 @@ import Wrapper from "../layout/Wrapper";
 import HeroBanner from "../layout/HeroBanner";
 import { useRouter } from "next/router";
 
-import Link from "next/link";
-
 export default function Layout({ children }) {
 	const router = useRouter();
 
@@ -15,11 +13,9 @@ export default function Layout({ children }) {
 				<HeroBanner>
 					<Row>
 						<Col>
-							<Navbar expand="lg">
+							<Navbar expand="lg" className="menu">
 								<Container>
-									<Navbar.Brand href="/">
-										Portfolio-2
-									</Navbar.Brand>
+									<Navbar.Brand>PORTFOLIO-2</Navbar.Brand>
 									<Navbar.Toggle
 										aria-controls="basic-navbar-nav"
 										data-bs-toggle="collapse"
@@ -36,7 +32,7 @@ export default function Layout({ children }) {
 														: ""
 												}
 											>
-												Home
+												HOME
 											</NavLink>
 
 											<NavLink
@@ -47,7 +43,7 @@ export default function Layout({ children }) {
 														: ""
 												}
 											>
-												About
+												ABOUT
 											</NavLink>
 
 											<NavLink
@@ -59,7 +55,7 @@ export default function Layout({ children }) {
 														: ""
 												}
 											>
-												Contact
+												CONTACT
 											</NavLink>
 										</Nav>
 									</Navbar.Collapse>

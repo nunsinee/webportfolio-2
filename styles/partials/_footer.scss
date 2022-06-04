@@ -11,5 +11,13 @@ footer {
 .icons-container {
 	max-width: 70%;
 	justify-content: center;
-	margin:0 auto;
+	margin: 0 auto;
+}
+
+.social-icons {
+	cursor: pointer;
+
+	&:hover {
+		color: getColour(brown);
+	}
 }

@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 
-export default function Paragraph(props) {
-	return <p>{props.children}</p>;
+export default function Paragraph({ children }) {
+	return <p>{children}</p>;
 }
 
 Paragraph.propTypes = {
-	content: PropTypes.string,
+	children: PropTypes.node,
 };

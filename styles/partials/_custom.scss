@@ -1,8 +1,11 @@
 //Theme
 $colours: (
 	brown: #a07157,
+	light-brown: #dcccc3,
 	black: #000000,
 	copy: #666666,
+	sunny: #efd406,
+	white: #ffffff,
 );
 
 @function getColour($colour) {
