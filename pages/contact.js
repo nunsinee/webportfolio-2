@@ -27,7 +27,7 @@ export default function Contact() {
 					</Row>
 				</TextBanner>
 
-				<Row>
+				<Row className="text-center">
 					<Col xs={12} md={6} className="mb-5">
 						<h6>Quick contact by e-mail:</h6>
 						<h3>nunsinee@gmail.com</h3>

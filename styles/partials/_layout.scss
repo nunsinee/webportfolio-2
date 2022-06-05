@@ -49,19 +49,29 @@ body {
 	}
 }
 
+.navwrapp {
+	position: relative;
+	z-index: 10;
+}
+
 .hero__text {
 	width: 90%;
 	position: absolute;
-	z-index: 10;
 	top: 15%;
 	margin: 0 auto;
 	text-align: center;
 
 	@media (max-width: $mobile) {
 		top: 30%;
+		z-index: 10;
 	}
 
 	@media (max-width: $tablet) {
 		top: 15%;
+		z-index: 10;
 	}
+}
+
+.text-center {
+	text-align: center;
 }

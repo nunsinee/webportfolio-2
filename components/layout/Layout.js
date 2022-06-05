@@ -12,10 +12,10 @@ export default function Layout({ children }) {
 			<Wrapper>
 				<HeroBanner>
 					<Row>
-						<Col>
+						<Col className="navwrapp">
 							<Navbar expand="lg" className="menu">
 								<Container>
-									<Navbar.Brand>Portfolio-2</Navbar.Brand>
+									<Navbar.Brand>Web Portfolio 2</Navbar.Brand>
 									<Navbar.Toggle
 										aria-controls="basic-navbar-nav"
 										data-bs-toggle="collapse"
