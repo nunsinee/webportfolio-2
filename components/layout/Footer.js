@@ -65,12 +65,12 @@ export default function Footer({ children }) {
 						</Col>
 					</Row>
 					<Row>
-						<Col>
+						<Col sm className="mt-5">
 							<h5>Nunsinee Viken</h5>
 						</Col>
 					</Row>
 					<Row>
-						<Col>
+						<Col sm>
 							Copyright 2022 Nunsinee Viken | All rights reserved.
 						</Col>
 					</Row>

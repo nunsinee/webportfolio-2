@@ -7,14 +7,14 @@
 	font-size: 1.2rem;
 }
 
-.navbar-light .navbar-brand {
-	color: getColour(sunny);
-}
-
 .navbar-brand {
 	font-family: "Libre Franklin", sans-serif;
 	font-size: 1.5rem;
 	font-weight: 700;
+}
+
+.navbar-light .navbar-brand {
+	color: getColour(sunny);
 }
 
 .navbar .navbar-nav .nav-link.active,
