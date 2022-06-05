@@ -15,7 +15,7 @@ export default function Layout({ children }) {
 						<Col>
 							<Navbar expand="lg" className="menu">
 								<Container>
-									<Navbar.Brand>PORTFOLIO-2</Navbar.Brand>
+									<Navbar.Brand>Portfolio-2</Navbar.Brand>
 									<Navbar.Toggle
 										aria-controls="basic-navbar-nav"
 										data-bs-toggle="collapse"

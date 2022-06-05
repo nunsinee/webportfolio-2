@@ -29,13 +29,15 @@ export default function Contact() {
 
 				<Row>
 					<Col xs={12} md={6} className="mb-5">
-						<h3>Quick contact by e-mail:</h3>
-						nunsinee@gmail.com
+						<h6>Quick contact by e-mail:</h6>
+						<h3>nunsinee@gmail.com</h3>
 					</Col>
 					<Col xs={12} md={6} className="mb-5">
-						<h3>See more my works:</h3>
+						<h6>See more my works:</h6>
 						<Link href="https://www.webbymim.com/index.html">
-							<a>www.webbymim.com</a>
+							<a>
+								<h3>www.webbymim.com</h3>
+							</a>
 						</Link>
 					</Col>
 				</Row>

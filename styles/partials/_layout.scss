@@ -56,8 +56,9 @@ body {
 	top: 15%;
 	margin: 0 auto;
 	text-align: center;
+
 	@media (max-width: $mobile) {
-		top: 40%;
+		top: 30%;
 	}
 
 	@media (max-width: $tablet) {

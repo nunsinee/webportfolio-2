@@ -27,7 +27,7 @@ export default function About() {
 				</TextBanner>
 				<Row>
 					<Col sm className="mb-5">
-						<SubHeading subtitle="Get to know me a little" />
+						<h3>Get to know me a little</h3>
 					</Col>
 				</Row>
 				<Row className="profile-container">
@@ -36,7 +36,7 @@ export default function About() {
 							<Image src={NunsineePic} alt="profile picture" />
 						</Card>
 					</Col>
-					<Col xs={12} md={6}>
+					<Col xs={12} md={6} className="mt-3">
 						<Paragraph>
 							Hi, I am Nunsinee Viken and I currently studying
 							front-end web development at NOROFF and I am looking
