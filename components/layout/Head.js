@@ -8,6 +8,10 @@ export default function Head({ title = "" }) {
 				name="viewport"
 				content="width=device-width, initial-scale=1"
 			/>
+			<meta
+				name="Web Portfolio-2 by Nunsinee Viken "
+				content="Portfolio-2 display 3  Noroff school projects, Js-Framworks 2, Semester Project 2 and Project Exam 2 "
+			/>
 			<title>
 				{title}
 				{title ? " | " : ""} Portfolio-2

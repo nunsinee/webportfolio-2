@@ -9,8 +9,7 @@ import Works from "../components/layout/Works";
 export default function Home() {
 	return (
 		<Layout>
-			<Head title="Portfolio 2" />
-
+			<Head title="Home" />
 			<Container>
 				<TextBanner>
 					<Row>
