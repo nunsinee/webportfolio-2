@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function Contact() {
 	return (
 		<Layout>
-			<Head title="About me" />
+			<Head title="Contact me" />
 			<Container>
 				<TextBanner>
 					<Row>
