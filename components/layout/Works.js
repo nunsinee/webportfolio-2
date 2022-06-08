@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Row, Col, Card, Button } from "react-bootstrap";
 import ProjectExam from "../../public/assets/project_img/project_exam_2.jpg";
-import JSFramework from "../../public/assets/project_img/js_frameworsk_2.jpg";
+import JSFramework from "../../public/assets/project_img/screenshort_js_framework_2.jpg";
 import SemesterProject from "../../public/assets/project_img/semester_project_2.jpg";
 
 export default function Works() {
